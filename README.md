@@ -97,7 +97,13 @@ Nous avons utiliser un singleton pour la class Server puisque que nous souhaiton
 
 # Exo 06 🧩
 
-Notre diagramme de class est composé de 4 class : 
+Notre diagramme de class est composé de 3 class : 
+
+- User : La class permet à l'utilisateur de commencer la partie "Start()" et de recommencer la partie "retry()".
+
+- Jigsaw : La class nous permet de prendre une piéce "PickPiece(Piece)" de retirer une piéce "RemovePiece(Piece)", qui permet "SetPieceOnJigSaw(Piece)" et "CreateJigSaw()", La class Jigsaw est composer de la liste "Piece"
+
+- Piece : Nous permet de rensigner l'Id  de la piece ainsi que l'emplacement de cette piece dans le Puzzle
 
 
 ![Screenshot](Images/Jigsaw.png)
