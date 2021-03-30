@@ -101,9 +101,9 @@ Notre diagramme de class est composé de 3 class :
 
 - User : La class permet à l'utilisateur de commencer la partie "Start()" et de recommencer la partie "retry()".
 
-- Jigsaw : La class nous permet de prendre une piéce "PickPiece(Piece)" de retirer une piéce "RemovePiece(Piece)", qui permet "SetPieceOnJigSaw(Piece)" et "CreateJigSaw()", La class Jigsaw est composer de la liste "Piece"
+- Jigsaw : La class nous permet de selectionner une piéce "PickPiece(Piece)" de retirer une piéce "RemovePiece(Piece)", "SetPieceOnJigSaw(Piece)" est la méthode qui permet de placer une pièce du puzzle et "CreateJigSaw()" initie le puzzle, La class Jigsaw est composée de la liste "Piece"
 
-- Piece : Nous permet de rensigner l'Id  de la piece ainsi que l'emplacement de cette piece dans le Puzzle
+- Piece : Qui est caractérisée par un ID et un emplacement au sein du puzzle, est un composant de Jigsaw
 
 
 ![Screenshot](Images/Jigsaw.png)
@@ -138,3 +138,5 @@ Notre diagramme de class est composé de 4 class :
 
 ![Screenshot](Images/Othello.png)
 
+
+## Merci Bonne Journée 
