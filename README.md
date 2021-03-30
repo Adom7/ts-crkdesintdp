@@ -1,5 +1,5 @@
 UML README 🚀
-# Exo 1
+# Exo 1 ♦️♥️♣️♠️
 Notre diagramme de class est composé de 5 class : 
 - Card : Qui utilise des enumération : 
 
@@ -21,7 +21,7 @@ La Class "GameCard" est la class principale, en héritant de "GameCard" , "Black
 
 ![Screenshot](Images/DeckofCards.png)
 
-# Exo 2
+# Exo 2 ☎️
 
 Notre Diagramme de class est composé de 5 class:
 
@@ -47,7 +47,7 @@ La fonction "IfUnAvailableVoiceMail()" dirige le client vers une Boite Vocal.
 ![Screenshot](Images/CallCenter.png)
 
 
-# Exo 4
+# Exo 4 ✉️
 
 Notre diagramme de class est composé de 4 class : 
 
