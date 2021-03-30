@@ -27,14 +27,7 @@ Notre Diagramme de class est composé de 5 class:
 
 - Client : Qui est en association avec "Call Center"
 
-- Call Center : Qui est en association avec la liste des Employés "Employees". La fonction "SearchEmployee()" cherche dans un premier temps un "Respondent" disponible (Available), dans le cas où celui-ci n'est pas disponible la fonction exécutera l'opération de la class "Respondent".
-
-La fonction "IfUnAvailableGoManager()" cherche à son tour un "Manager" disponible, dans le cas où le Manager est également indisponible la fonction éxecutera l'opération de la class "Manager".
-
-La fonction "IfUnAvailableGoDirector()" cherche à sont tour un "Director" disponible, dans le cas où le Directeur est également indisponible la fonction éxecutera l'opération de la class "Director"
-
-La fonction "IfUnAvailableVoiceMail()" dirige le client vers une Boite Vocal.
-
+- Call Center : Qui est en association avec la liste des Employés "Employees". La fonction "SearchEmployee()" cherche dans un employé dans un ordre de priorité, elle fera appelle aux fonctions "IfUnAvailableGoManager()","IfUnAvailableGoDirector()" ainsi que  "IfUnAvailableVoiceMail()" si aucun employé est disponible qui renverra le client vers la boite vocale .
 
 - Employees : Nous permet d'accepter l'appel "AnswerTheCall()" en fonction du status de priorité "StatusPriority"
 
