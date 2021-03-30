@@ -139,4 +139,4 @@ Notre diagramme de class est composé de 4 class :
 ![Screenshot](Images/Othello.png)
 
 
-## Merci Bonne Journée 
+## Merci Bonne Journée 👐
