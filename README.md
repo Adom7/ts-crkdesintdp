@@ -46,7 +46,7 @@ La fonction "IfUnAvailableVoiceMail()" dirige le client vers une Boite Vocal.
 
 ![Screenshot](Images/CallCenter.png)
 
-# Exo 3 🎶🎵
+# Exo 3 🎼
 
 Notre Diagramme de class est composé de 5 class :
 
@@ -63,7 +63,7 @@ Notre Diagramme de class est composé de 5 class :
 ![Screenshot](Images/JukeBox.png)
 
 
-# Exo 4 ✉️
+# Exo 04 🚘 
 
 Notre diagramme de class est composé de 5 class : 
 
@@ -76,10 +76,10 @@ Client : représente un client voulant accèder au parking.
 
 Parking : est la class central qui permet d'articuler l'ensemble des fonctions (acceuillir, les clients, gérer les employés, gérer la disponibilité des places ou gérer le système de barrière) du parking grâce à ses association avec les différentes class.
 
-![Screenshot](Images/Exo4.png)
+![Screenshot](Images/Parking.png)
 
 
-# Exo 5 📚
+# Exo 05 📚
 
 Notre diagramme de class est composé de 4 class : 
 
@@ -93,9 +93,32 @@ Notre diagramme de class est composé de 4 class :
 
 Nous avons utiliser un singleton pour la class Server puisque que nous souhaitons pas avoir plusieurs instance de Server mais récuperer plutot l'instance déjà effective grâce à la méthode getInstance().
 
-![Screenshot](Images/exo5.png)
+![Screenshot](Images/book.png)
 
-# Exo 6 ⚫️⚪️
+# Exo 06 🧩
+
+Notre diagramme de class est composé de 4 class : 
+
+
+![Screenshot](Images/Jigsaw.png)
+
+
+# Exo 07 ✉️
+
+Notre diagramme de class est composé de 4 class : 
+
+- User qui permet à l'utisateur d'envoyé un message et qui possède un ID pour pouvoir l'authentifier ainsi qu'un username.
+- Message qui correspond au message envoyé par l'user et qui possède donc un Propriétaire un destinaire et un corps.
+- Postman est la classe qui permet de faire l'intermédiaire entre l'user et le server. 
+- Server est une class qui recois une requête (un message) et qui renvoie une réponse adéquate. 
+
+Nous avons utiliser un singleton pour la class Server puisque que nous souhaitons pas avoir plusieurs instance de Server mais récuperer plutot l'instance déjà effective grâce à la méthode getInstance().
+
+![Screenshot](Images/Server.png)
+
+
+
+# Exo 08 ♟
 
 Notre diagramme de class est composé de 4 class : 
 
@@ -107,4 +130,5 @@ Notre diagramme de class est composé de 4 class :
 
 - Othello Game est la class qui met en place la partie possèdant le nécessaire pour une partie d'Othello c'est à dire : des joueurs (Player) et un tableau composé de Piece (Board et Piece).
 
+![Screenshot](Images/Othello.png)
 
