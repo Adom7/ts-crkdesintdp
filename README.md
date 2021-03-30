@@ -13,7 +13,7 @@ Notre diagramme de class est composé de 5 class :
 
 La Class "BlackJack" est la class principale, "BlackJack" utilise les autre class pour mettre en oeuvre le jeu
 
-![Screenshot](Images/DeckOfCards.png)
+![Screenshot](Images/DeckofCards.png)
 
 # Exo 2
 
